@@ -76,7 +76,7 @@ def iteracion(matriz,iteracion,d,r):
 
 iteraciones = int(input("Cantidad de iteraciones: "))
 d = int(input("Desvío: "))
-r = int(input("Rugosidad: "))
+r = float(input("Rugosidad: "))
 horaComienzo = time.time()
 matriz = [[rand(d),rand(d)],[rand(d),rand(d)]]
 
